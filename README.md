@@ -7,4 +7,4 @@
 
 **Fotky:** https://pslib-my.sharepoint.com/:f:/g/personal/marnova017_pslib_cz/EvT2BhoJbY1AgrnOccaA1bMByviEnzORehmTUvSkAlklqg?e=nKArKX
 
-**Web - zatím pouze část mobilní verze:** https://pslib-cz.github.io/2021l4web-promotion-project-Martin-1-Novak/
+**Web:** https://pslib-cz.github.io/2021l4web-promotion-project-Martin-1-Novak/
