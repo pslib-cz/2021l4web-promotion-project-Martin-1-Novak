@@ -1,0 +1,249 @@
+@media only screen and (min-width: 400px) {
+
+    .buttons {
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+
+    .header {
+        height: 100px;
+    }
+    
+    .knife_and_Buttons_container {
+        width: 640px;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    .menu-items {
+        display: none;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .menu-items2 {
+        display: flex;
+    }
+
+    .header-container {
+        justify-content: space-between;
+    }
+
+    .knife_img {
+        display: block;
+        margin: 0 auto;
+        width: 640px;
+    }
+
+    .description-pointer {
+        scale: 1.5;
+    }
+
+    .description-text {
+        font-size: 1.8em;
+        bottom: 8px;
+        left: 35px;
+    }
+
+    .opener {
+        margin: 0;
+        bottom: 620px;
+        left: 190px;
+    }
+
+    .handle {
+        bottom: 450px;
+        left: -120px;
+    }
+
+    .joint {
+        bottom: 370px;
+        left: -50px;
+    }
+
+    .blade {
+        bottom: 168px;
+        left: 370px;
+    }
+    
+    .description-text__h {
+        bottom: -20px;
+        left: -20px;
+    }
+
+    .description-text__b {
+        bottom: 8px;
+        left: -300px;
+    }
+
+    .buttons {
+        justify-content: space-around;
+    }
+
+    .button {
+        width: 200px;
+        padding: 0.8em;
+    }
+
+    .arrow {
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+    .button span {
+        font-size: 1.8em;
+        margin: 0 auto;
+    }
+
+    .part-content {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 2vw;
+        font-size: 4vw;
+    }
+
+    .grid_item_1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    
+    .grid_item_2 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    
+    .grid_item_3 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    
+    .grid_item_4 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    
+    .grid_item_5 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    
+    .grid_item_6 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    .backgroundtext {
+        top: 440px;
+    }
+}
+
+@media only screen and (min-width: 1150px) {
+
+    .menu-item {
+        font-size: 1.5em;
+    }
+
+    .knife_and_Buttons_container {
+        display: flex;
+        width: initial;
+        margin: 0;
+        margin-top: 5%;
+        justify-content: space-evenly;
+      }
+
+    .knife {
+        width: 850px;
+    }
+
+    .knife_img {
+        display: initial;
+        margin: 0 auto;
+        width: 850px;
+    }
+
+    .main-section {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .button-a {
+        width: 227px;
+        height: 4em;
+    }
+
+    .opener {
+        bottom: 500px;
+        left: 225px;
+    }
+
+    .handle {
+        bottom: 350px;
+        left: -60px;
+    }
+
+    .joint {
+        bottom: 330px;
+        left: 60px;
+    }
+
+    .blade {
+        bottom: 90px;
+        left: -30px;
+    }
+
+    .description-text__b {
+        left: 470px;
+        bottom: 40px;
+    }
+
+    .backgroundtext {
+        width: 105%;
+        left: -2.5%;
+    }
+
+    .part-content {
+        gap: 1vw;
+        font-size: 1.4vw;
+    }
+
+    .image_container-img {
+        width: 23vw;
+    }
+
+    .detail_parts {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 1vw;
+        margin: 0 2%;
+    }
+
+    .part {
+        width: initial;
+    }
+
+    .part h2 {
+        font-size: 2.5em;
+    }
+
+    .part:nth-child(-n+2) {
+        padding-bottom: 20%;
+    }
+
+    .last_call_to_action {
+        margin-top: 0;
+    }
+
+    .copyright {
+        font-size: 1.25em;
+    }
+}
